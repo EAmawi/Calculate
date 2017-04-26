@@ -1,7 +1,7 @@
 ﻿
 /**
  * The Calc (Calculate) class Provides constants and static methods for performing basic numeric operations
- * such as the absolute value, maximum value, minimum value, ceil ,floor , power, remainder, and round.
+ * such as the absolute value, maximum value, minimum value, ceil ,floor , power, and round.
  *
  * @author Eyad AL-‘Amawi
  */
@@ -178,24 +178,6 @@ public class Calc {
             r = r * base;
         }
         return r;
-    }
-
-    /**
-     * The method returns remainder of the division.
-     *
-     * @param numerator Any integer number.
-     * @param denominator Any integer number without zero.
-     * @return remainder of the division.
-     */
-    public static int remainder(int numerator, int denominator) {
-        int remainder = 0;
-        if (denominator != 0) {
-            remainder = numerator % denominator;
-        } else {
-            System.out.println("Error ! division by zero");
-        }
-
-        return remainder;
     }
 
     /**
